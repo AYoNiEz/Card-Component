@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+.container {
+    width: 270px;
+    height: 500px;
+    align-self: center;
+    background-color: hsl(216, 50%, 16%);
+    position: static;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 0 0 0 1em #0c1729;
+    border-radius: 10px;
+    padding: 20px;
+}
+figure {
+    width: 270px;
+    height: auto;
+    margin: 0;
+	padding: 0;
+}
+.back {
+    background-color :#0d1a2d;
+    
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+.logo {
+    border-radius: 10px;
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+    display: block;
+}
+.container figure {
+	background: hsl(178, 100%, 50%);
+    border-radius: 10px;
+}
+.container figure:hover img {
+	opacity: .5;
+}
+.container figure:hover .middle {
+    opacity: 1;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+   bottom: 58%;
+   left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.profile{
+    border: 1px solid #ffffff;
+    width: 25px;
+    height: auto;
+    margin:  5px;
+    border-radius: 50%;
+}
+.topic {
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    font-size: 20px;
+  }
+.paragraph{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+    font-weight: 50;
+}
+.texttime{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    font-weight: 50;
+    margin-top: 12px;
+}
+.topic:hover {
+    color: hsl(178, 100%, 50%);
+}
+.creation{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    font-weight: 50;
+    margin-top: 9px;
+}
+.style1 { 
+    
+    color: #ffffff2a; 
+    opacity: 0.2;
+  }
+.point{
+    font-family: 'Outfit', sans-serif;
+    color: #2bd3dc;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: left;
+}
+.column {
+    float: left;
+    padding-right: 5px;
+}
+.columnRight{
+    float: right;
+    padding-left: 5px;
+}
+  /* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+svg{
+    margin-top: 12px;
+}
+span {
+    color: #ffffff;
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+}
